@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Super Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header, footer { background: #222; color: #fff; padding: 1em; text-align: center; }
+        main { padding: 2em; }
+        .super-btn { background: #007bff; color: #fff; border: none; padding: 1em 2em; cursor: pointer; border-radius: 5px; }
+        .super-btn:hover { background: #0056b3; }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1>Welcome to Super Page</h1>
+    </header>
+    <main>
+        <p>This is a super simple HTML template. Click the button below for a super alert!</p>
+        <button class="super-btn" onclick="superAlert()">Super Button</button>
+    </main>
+    <footer>
+        &copy; 2025 Super Page
+    </footer>
+    <script>
+        function superAlert() {
+            alert('Super!');
+        }
+    </script>
 </body>
 </html>
